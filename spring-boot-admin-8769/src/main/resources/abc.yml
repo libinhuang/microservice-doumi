@@ -1,0 +1,38 @@
+server:
+  port: 8769
+spring:
+  mail:
+    host: smtp.163.com
+    username: 15976594566@163.com
+    password: abc123456
+  boot:
+    admin:
+      notify:
+        mail:
+          to: libin524613493@vip.qq.com
+          from: 15976594566@163.com
+  application:
+    name: spring-boot-admin
+  security:
+    user:
+      name: admin
+      password: admin
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8100}/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

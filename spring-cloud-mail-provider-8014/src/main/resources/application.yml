@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: mail-provider
+  mail:
+    host: smtp.163.com
+    username: 15976594566@163.com
+    password: abc123456
+    port: 25
+    protocol: smtp
+    default-encoding: UTF-8
+  redis:
+    port: 6379
+    host: 192.168.247.10
+  rabbitmq:
+    host: 192.168.247.10
+    port: 5672
+    username: admin
+    password: 123456
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+server:
+  port: 8014

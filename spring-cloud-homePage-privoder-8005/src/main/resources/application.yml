@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: homePage-provider
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10  #\u5FC3\u8DF3\u6D4B\u8BD5
+    health-check-url-path: /actuator/health  #\u76D1\u63A7\u5730\u5740
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8100}/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+server:
+  port: 8005
