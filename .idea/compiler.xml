@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-consumer-8888" />
+        <module name="spring-cloud-doumi-api" />
+        <module name="config-client" />
+        <module name="spring-cloud-mail-provider-8014" />
+        <module name="spring-cloud-position-privoder-8003" />
+        <module name="spring-cloud-xxl-job" />
+        <module name="spring-boot-admin-8769" />
+        <module name="spring-cloud-doumi-commons" />
+        <module name="spring-cloud-message-privoder-8004" />
+        <module name="spring-cloud-resume-provider-8002" />
+        <module name="spring-cloud-eureka-8100" />
+        <module name="spring-cloud-user-privoder-8001" />
+        <module name="spring-cloud-enterprise-privoder-8006" />
+        <module name="spring-cloud-homePage-privoder-8005" />
+        <module name="spring-cloud-eureka-security" />
+        <module name="spring-cloud-verify-privoder-8012" />
+        <module name="config-server-git" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server-git" target="1.8" />
+      <module name="microservice-doumi" target="1.8" />
+      <module name="spring-boot-admin-8769" target="1.8" />
+      <module name="spring-cloud-consumer-8888" target="1.8" />
+      <module name="spring-cloud-doumi-api" target="1.8" />
+      <module name="spring-cloud-doumi-commons" target="1.8" />
+      <module name="spring-cloud-enterprise-privoder-8006" target="1.8" />
+      <module name="spring-cloud-eureka-8100" target="1.8" />
+      <module name="spring-cloud-eureka-security" target="1.8" />
+      <module name="spring-cloud-homePage-privoder-8005" target="1.8" />
+      <module name="spring-cloud-mail-provider-8014" target="1.8" />
+      <module name="spring-cloud-message-privoder-8004" target="1.8" />
+      <module name="spring-cloud-position-privoder-8003" target="1.8" />
+      <module name="spring-cloud-resume-provider-8002" target="1.8" />
+      <module name="spring-cloud-user-privoder-8001" target="1.8" />
+      <module name="spring-cloud-verify-privoder-8012" target="1.8" />
+      <module name="spring-cloud-xxl-job" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server-git" options="-parameters" />
+      <module name="spring-boot-admin-8769" options="-parameters" />
+      <module name="spring-cloud-consumer-8888" options="-parameters" />
+      <module name="spring-cloud-doumi-api" options="-parameters" />
+      <module name="spring-cloud-doumi-commons" options="-parameters" />
+      <module name="spring-cloud-enterprise-privoder-8006" options="-parameters" />
+      <module name="spring-cloud-eureka-8100" options="-parameters" />
+      <module name="spring-cloud-eureka-security" options="-parameters" />
+      <module name="spring-cloud-homePage-privoder-8005" options="-parameters" />
+      <module name="spring-cloud-mail-provider-8014" options="-parameters" />
+      <module name="spring-cloud-message-privoder-8004" options="-parameters" />
+      <module name="spring-cloud-position-privoder-8003" options="-parameters" />
+      <module name="spring-cloud-resume-provider-8002" options="-parameters" />
+      <module name="spring-cloud-user-privoder-8001" options="-parameters" />
+      <module name="spring-cloud-verify-privoder-8012" options="-parameters" />
+      <module name="spring-cloud-xxl-job" options="-parameters" />
+    </option>
+  </component>
+</project>
