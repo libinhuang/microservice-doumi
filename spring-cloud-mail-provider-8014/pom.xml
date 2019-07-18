@@ -21,7 +21,7 @@
         <!--依赖api接口-->
         <dependency>
             <groupId>com.doumi</groupId>
-            <artifactId>spring-cloud-api</artifactId>
+            <artifactId>spring-cloud-doumi-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

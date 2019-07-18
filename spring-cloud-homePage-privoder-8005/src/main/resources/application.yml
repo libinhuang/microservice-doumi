@@ -19,3 +19,4 @@ management:
       show-details: ALWAYS
 server:
   port: 8005
+es.
