@@ -22,3 +22,6 @@ spring-cloud-user-provider-8001:用户管理提供者模块
 
 spring-cloud-xxl-job:任务调度中心模块
 spring-boot-admin-8769:服务监控模块
+
+
+测试分支的合并
