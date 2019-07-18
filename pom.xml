@@ -25,6 +25,8 @@
         <module>spring-cloud-mail-provider-8014</module>
         <module>spring-cloud-eureka-security</module>
         <module>spring-cloud-consumer-8888</module>
+        <module>config-server-git</module>
+        <module>config-client</module>
     </modules>
 
     <!--父级：Spring Boot-->
@@ -48,6 +50,18 @@
     <!--管理依赖-->
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>20160810</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.2.4</version>
+            </dependency>
 
             <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server-ui -->
             <dependency>
