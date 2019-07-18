@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>config-server-git</artifactId>
+    <artifactId>config-com.eureka.doumi.server-git</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-config-com.eureka.doumi.server</artifactId>
         </dependency>
     </dependencies>
 

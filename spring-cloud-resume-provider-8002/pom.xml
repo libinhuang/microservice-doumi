@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-resume-provider-8010</artifactId>
+    <artifactId>spring-cloud-resume-provider-8002</artifactId>
 
 
 </project>

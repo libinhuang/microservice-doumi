@@ -2,7 +2,7 @@ server:
   port: 8769
 spring:
   application:
-    name: admin-server
+    name: admin-com.eureka.doumi.server
   mail:
     host: smtp.163.com
     username: 15976594566@163.com
