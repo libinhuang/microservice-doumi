@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="693ea9a6-9534-44fb-9ee2-0f6db7472ff5" name="Default Changelist" comment="" />
+    <list default="true" id="693ea9a6-9534-44fb-9ee2-0f6db7472ff5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka-8100/target/" />
@@ -55,55 +57,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/message/BasicHttpResponse.class">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
-              <folding>
-                <element signature="e#1580#1581#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/RuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-              <folding>
-                <element signature="e#3078#3079#0" expanded="true" />
-                <element signature="e#3106#3107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/HttpResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/HttpMessage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar!/org/apache/http/client/HttpClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="2744">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -184,7 +151,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/Base64Util.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -208,6 +174,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/resources/common.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/AliyunHttpUtils.java" />
         <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/AliyunImageRecognitionUtil.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -238,17 +205,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-doumi-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-doumi-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -517,7 +474,7 @@
       <workItem from="1563347155732" duration="748000" />
       <workItem from="1563380273158" duration="2888000" />
       <workItem from="1563409641126" duration="8062000" />
-      <workItem from="1563421913828" duration="228000" />
+      <workItem from="1563421913828" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="commons utils update 2019-1-13">
       <created>1562956758584</created>
@@ -582,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563381308359</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test branch">
+      <created>1563422249413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563422249413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133011000" />
+    <option name="totallyTimeSpent" value="133335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,6 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="JRebel" order="0" sideWeight="0.502439" side_tool="true" weight="0.29959786" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.3243968" />
@@ -735,7 +700,8 @@
     <MESSAGE value="Integration project" />
     <MESSAGE value="test config cloud" />
     <MESSAGE value="test config cloud for dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="test config cloud for dev" />
+    <MESSAGE value="test branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="test branch" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_cloud_parent$UserProviderApplication.ic" NAME="UserProviderApplication Coverage Results" MODIFIED="1563082516619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -782,7 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -877,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-enterprise-privoder-8006/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -966,8 +924,8 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/AliyunHttpUtils.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/message/BasicHttpResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="79">
+          <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
           <folding>
             <element signature="e#1580#1581#0" expanded="true" />
             <element signature="e#1614#1615#0" expanded="true" />
@@ -977,7 +935,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
+        <state relative-caret-position="597">
           <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
           <folding>
             <element signature="e#3078#3079#0" expanded="true" />
@@ -988,22 +946,36 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/HttpResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="336">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/HttpMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="28">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar!/org/apache/http/client/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="257">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2744">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
