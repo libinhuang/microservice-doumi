@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: search-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/onemeter   #?setUnicode=true&characterEncoding=utf8
+server:
+  port: 8008
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8100/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  #关闭redis和elasticsearch的健康检查
+  health:
+    redis:
+      enabled: false
+    elasticsearch:
+      enabled: false
+  endpoint:
+    health:
+      show-details: ALWAYS

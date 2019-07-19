@@ -3,16 +3,16 @@ server:
 spring:
   application:
     name: user-consumer
-  redis:
-    host: 192.168.247.10
-    port: 6379
+#  redis:
+#    host: 192.168.247.10
+#    port: 6379
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
   client:
     service-url:
-      defaultZone: http://localhost:8100/eureka/
+      defaultZone: http://admin:admin@localhost:8100/eureka/
 feign:
   hystrix:
     enabled: true
@@ -21,6 +21,11 @@ management:
     web:
       exposure:
         include: "*"
+  health:
+    elasticsearch:
+      enabled: false
+    redis:
+      enabled: false
   endpoint:
     health:
       show-details: always

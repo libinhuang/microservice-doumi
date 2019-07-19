@@ -31,41 +31,49 @@ spring:
       use-global-data-source-stat: true
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
     type: com.alibaba.druid.pool.DruidDataSource
-  redis:
-    host: 192.168.247.10
-    port: 6379
-  rabbitmq:
-    host: 192.168.247.10
-    port: 5672
-    username: admin
-    password: 123456
-    publisher-confirms: true #交换机确认机制，是否确认回调
-    publisher-returns: true #交换机确认机制，是否返回回调
-    listener:
-      simple:
-        acknowledge-mode: manual #手动应答模式
-        concurrency: 1 #指定最小消费者数量
-        max-concurrency: 1 #指定最大消费者数量
-        retry:
-          enabled: true #是否支持重试
+#  redis:
+#    host: 192.168.247.10
+#    port: 6379
+#  rabbitmq:
+#    host: 192.168.247.10
+#    port: 5672
+#    username: admin
+#    password: 123456
+#    publisher-confirms: true #交换机确认机制，是否确认回调
+#    publisher-returns: true #交换机确认机制，是否返回回调
+#    listener:
+#      simple:
+#        acknowledge-mode: manual #手动应答模式
+#        concurrency: 1 #指定最小消费者数量
+#        max-concurrency: 1 #指定最大消费者数量
+#        retry:
+#          enabled: true #是否支持重试
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
   client:
     service-url:
-      defaultZone: http://localhost:8100/eureka/
+      defaultZone: http://admin:admin@localhost:8100/eureka/
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+  #关闭es的健康检查
+  health:
+    redis:
+      enabled: false
+    elasticsearch:
+      enabled: false
   endpoint:
     health:
       show-details: always
+
 server:
   port: 8001
 #配置别名
 mybatis:
   type-aliases-package: com.doumi.pojo
   mapper-locations: classpath:/mappings/*.xml
+
