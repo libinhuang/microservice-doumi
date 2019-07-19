@@ -25,7 +25,6 @@
         <module>spring-cloud-mail-provider-8014</module>
         <module>spring-cloud-eureka-security</module>
         <module>spring-cloud-consumer-8888</module>
-        <module>config-com.eureka.doumi.server-git</module>
         <module>config-client</module>
         <module>spring-cloud-search-provider</module>
     </modules>
@@ -40,7 +39,7 @@
     <!--参数-->
     <properties>
         <!--定义springcloud版本-->
-        <springcloud.version>Greenwich SR1</springcloud.version>
+        <springcloud.version>Greenwich.SR1</springcloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -53,19 +52,19 @@
         <dependencies>
 
             <!--引入mybatis-plus-->
-            <dependency>
+            <!--<dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>3.0.1</version>
-            </dependency>
+            </dependency>-->
 
 
             <!--elasticsearch依赖-->
-            <dependency>
+            <!--<dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>transport</artifactId>
-                <version>6.5.4</version>
-            </dependency>
+                <version>5.6.0</version>
+            </dependency>-->
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -85,7 +84,6 @@
                 <version>2.8.5</version>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-com.eureka.doumi.server-ui -->
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-server-ui</artifactId>
@@ -112,11 +110,13 @@
                 <artifactId>spring-boot-admin-starter-client</artifactId>
                 <version>2.1.3</version>
             </dependency>
+
             <dependency>
                 <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
                 <version>2.1.3</version>
             </dependency>
+
             <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -129,30 +129,35 @@
                 <artifactId>jolokia-core</artifactId>
                 <version>1.6.0</version>
             </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.6</version>
                 <scope>provided</scope>
             </dependency>
+
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
                 <version>3.17</version>
             </dependency>
+
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
                 <version>3.17</version>
             </dependency>
+
             <!--整合springcloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Greenwich.SR1</version>
+                <version>${springcloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <!--整合swagger2-->
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -195,23 +200,20 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>1.3.2</version>
             </dependency>
+
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
             </dependency>
-            <!--整合lombok-->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>1.18.8</version>
-            </dependency>
+
             <!--springCloud 服务注册组件-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
                 <version>2.1.1.RELEASE</version>
             </dependency>
+
             <!--springCloud 服务客户端-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -232,11 +234,13 @@
                 <artifactId>aliyun-java-sdk-core</artifactId>
                 <version>4.1.0</version>
             </dependency>
+
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.30</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -266,15 +270,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--整合mysql-->
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
-        </dependency>
-
-
     </dependencies>
 
     <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->
@@ -288,8 +283,5 @@
             </snapshots>
         </repository>
     </repositories>
-
-
-
 
 </project>

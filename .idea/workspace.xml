@@ -1,51 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="693ea9a6-9534-44fb-9ee2-0f6db7472ff5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+    <list default="true" id="693ea9a6-9534-44fb-9ee2-0f6db7472ff5" name="Default Changelist" comment="add Es Search">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/PostJobList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/EsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/resources/es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/HomePageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fallback/SearchServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fegin/SearchFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/spring-cloud-search-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/SearchEsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/mapper/PostJobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_7_v20160115.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/microservice-doumi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservice-doumi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-client/config-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/config-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server-git/config-server-git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-git/config-server-git.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server-git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-git/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin-8769/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/spring-boot-admin-8679.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/spring-boot-admin-8769.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin-8769/spring-boot-admin-8769.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/src/main/resources/abc.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin-8769/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin-8769/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-consumer-8888/spring-cloud-consumer-8888.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer-8888/spring-cloud-consumer-8888.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/ConsumerUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/ConsumerUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-doumi-api/spring-cloud-doumi-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-doumi-api/spring-cloud-doumi-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml" afterDir="false" />
@@ -53,26 +110,26 @@
       <change beforePath="$PROJECT_DIR$/spring-cloud-enterprise-privoder-8006/spring-cloud-enterprise-privoder-8006.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-enterprise-privoder-8006/spring-cloud-enterprise-privoder-8006.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-8100/spring-cloud-eureka-8100.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-8100/spring-cloud-eureka-8100.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/java/com/eureka/doumi/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/java/com/eureka/EurekaServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-security/spring-cloud-eureka-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-security/spring-cloud-eureka-security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-security/src/main/java/com/eureka/service/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-security/src/main/java/com/eureka/service/security/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/spring-cloud-homePage-privoder-8005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/spring-cloud-homePage-privoder-8005.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-mail-provider-8014/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-mail-provider-8014/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-mail-provider-8014/spring-cloud-mail-provider-8014.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-mail-provider-8014/spring-cloud-mail-provider-8014.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/spring-cloud-message-privoder-8004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/spring-cloud-message-privoder-8004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-position-privoder-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-position-privoder-8003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/MessageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/MessageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-position-privoder-8003/spring-cloud-position-privoder-8003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-position-privoder-8003/spring-cloud-position-privoder-8003.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-resume-provider-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-resume-provider-8002/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-resume-provider-8002/spring-cloud-resume-provider-8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-resume-provider-8002/spring-cloud-resume-provider-8002.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/spring-cloud-user-privoder-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/spring-cloud-user-privoder-8001.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/UserProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/UserProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-verify-privoder-8012/spring-cloud-verify-privoder-8012.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-verify-privoder-8012/spring-cloud-verify-privoder-8012.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-xxl-job/spring-cloud-xxl-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-xxl-job/spring-cloud-xxl-job.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-xxl-job/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-xxl-job/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-xxl-job/src/main/resources/quartz.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-xxl-job/src/main/resources/quartz.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -142,84 +199,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-enterprise-privoder-8006/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3388">
-              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/pom.xml">
+        <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-mail-provider-8014/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="188">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -237,11 +221,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lombok</find>
       <find>eureka</find>
       <find>admin</find>
       <find>spring-boot-starter-data-redis</find>
-      <find>mybatis</find>
       <find>openfeign</find>
       <find>hystrix</find>
       <find>ui</find>
@@ -255,6 +237,15 @@
       <find>method</find>
       <find>headers</find>
       <find>importPostjoblist</find>
+      <find>spring-boot-admin-starter-serve</find>
+      <find>lombok</find>
+      <find>mysql-connector</find>
+      <find>api</find>
+      <find>elasticsearch</find>
+      <find>elastic</find>
+      <find>jackson-databind</find>
+      <find>mybatis</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,57 +265,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-repo/config-client-test.yml" />
-        <option value="$PROJECT_DIR$/config-repo/config-client-prod.yml" />
-        <option value="$PROJECT_DIR$/config-server-git/pom.xml" />
-        <option value="$PROJECT_DIR$/config-server-git/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-server-git/src/main/java/com/config/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/config-repo/config-client-dev.yml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/java/com/config/SpringCloudConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/java/com/config/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/Ocr.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/doumi/enterprise/controller/EntController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/resources/common.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/AliyunHttpUtils.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/AliyunImageRecognitionUtil.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/EsConfig.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-search-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-mail-provider-8014/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/User.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/mapper/PostJobMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/PostJobList.java" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/server/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/server/SearchService.java" />
         <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/server/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/controller/PostController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fegin/SearchFeignClient.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/SearchEsApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/server/SearchService.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/SearchService.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/impl/SearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fallback/SearchServiceFallback.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-resume-provider-8002/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-position-privoder-8003/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/SecuritySecureConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-security/src/main/java/com/eureka/service/security/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-8769/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-boot-admin-8769/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/PageServer.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fallback/SearchServiceFallback.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fegin/SearchFeignClient.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/mapper/PostJobMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/SearchService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/PostJobList.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/SearchEsApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-search-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/EsConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/java/com/eureka/EurekaServiceApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/MessageApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/UserProviderApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/ConsumerUserApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/HomePageApplication.java" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -358,35 +349,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-cloud-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-cloud-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-position-privoder-8003" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
-    <option name="y" value="5" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="x" value="71" />
+    <option name="y" value="1" />
+    <option name="width" value="1280" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -396,24 +374,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="microservice-doumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-doumi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-doumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-doumi" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-8769" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,13 +388,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/PropertiesUtil.java&#10;D:/gitspace/config/spring-cloud-parent/.gitignore&#10;D:/gitspace/config/spring-cloud-parent/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/Ocr.java&#10;D:/gitspace/microservice-doumi/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/SwaggerConfig.java&#10;D:/gitspace/config/spring-cloud-parent/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/AliyunHttpUtils.java&#10;D:/gitspace/config/spring-cloud-parent/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/AliyunImageRecognitionUtil.java&#10;D:/gitspace/config/spring-cloud-parent/config-server-git/src/main/resources/application.yml" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/postplatform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15277778" />
     <property name="project.structure.side.proportion" value="0.4257991" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -441,11 +404,11 @@
       <recent name="com.xxl.job.admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitspace\microservice-doumi\spring-cloud-search-provider\src\main\resources" />
+      <recent name="D:\gitspace\microservice-doumi\spring-cloud-doumi-commons\src\main\java\com\eureka\doumi\config" />
       <recent name="D:\gitspace\config\spring-cloud-parent\spring-cloud-doumi-commons\src\main\java\com\eureka\doumi\utils" />
       <recent name="D:\gitspace\config\spring-cloud-parent\spring-cloud-consumer-8888\src\main\java" />
       <recent name="D:\gitspace\config\spring-cloud-parent\spring-cloud-consumer-8888\src\main\resources" />
-      <recent name="D:\gitspace\config\spring-cloud-parent\spring-cloud-mail-provider-8014\src\main\resources" />
-      <recent name="D:\gitspace\config\spring-cloud-parent\spring-cloud-enterprise-privoder-8006\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eureka.doumi.config" />
@@ -471,22 +434,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.26980874" />
+    <option name="contentProportion" value="0.18920764" />
   </component>
-  <component name="RunManager" selected="Application.AliyunImageRecognitionUtil">
-    <configuration name="AliyunImageRecognitionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eureka.doumi.config.AliyunImageRecognitionUtil" />
-      <module name="spring-cloud-doumi-commons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eureka.doumi.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConsumerUserApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="spring-cloud-xxl-job" />
       <option name="VM_PARAMETERS" />
@@ -541,19 +491,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-server-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConsumerUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-consumer-8888" />
       <extension name="coverage">
@@ -571,34 +508,60 @@
       <module name="spring-cloud-eureka-8100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eureka.doumi.*" />
+          <option name="PATTERN" value="com.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.doumi.EurekaServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.EurekaServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-client" />
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-message-privoder-8004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.config.*" />
+          <option name="PATTERN" value="com.eureka.doumi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.SpringCloudConfigClientApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.doumi.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-search-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.doumi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.doumi.SearchEsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-user-privoder-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.doumi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.doumi.UserProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AliyunImageRecognitionUtil" />
-        <item itemvalue="Spring Boot.SpringCloudConfigClientApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ConsumerUserApplication" />
+        <item itemvalue="Spring Boot.UserProviderApplication" />
+        <item itemvalue="Spring Boot.SearchEsApplication" />
+        <item itemvalue="Spring Boot.MessageApplication" />
         <item itemvalue="Spring Boot.EurekaServiceApplication" />
       </list>
     </recent_temporary>
@@ -657,7 +620,19 @@
       <workItem from="1563432481517" duration="439000" />
       <workItem from="1563432949923" duration="877000" />
       <workItem from="1563433877015" duration="8258000" />
-      <workItem from="1563449776790" duration="850000" />
+      <workItem from="1563449776790" duration="13241000" />
+      <workItem from="1563463162112" duration="484000" />
+      <workItem from="1563495748380" duration="3372000" />
+      <workItem from="1563499198809" duration="1059000" />
+      <workItem from="1563500291639" duration="4778000" />
+      <workItem from="1563505184565" duration="1610000" />
+      <workItem from="1563506823716" duration="1260000" />
+      <workItem from="1563508211960" duration="1879000" />
+      <workItem from="1563512788924" duration="108000" />
+      <workItem from="1563512944683" duration="672000" />
+      <workItem from="1563513650491" duration="1544000" />
+      <workItem from="1563515224877" duration="7096000" />
+      <workItem from="1563525276378" duration="16234000" />
     </task>
     <task id="LOCAL-00001" summary="commons utils update 2019-1-13">
       <created>1562956758584</created>
@@ -736,11 +711,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563426198012</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add Es Search">
+      <created>1563450733298</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563450733298</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150693000" />
+    <option name="totallyTimeSpent" value="203180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,11 +735,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="JRebel" order="0" sideWeight="0.502439" side_tool="true" weight="0.29959786" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.22453083" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="0" sideWeight="0.5043478" side_tool="true" weight="0.23659517" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49565217" visible="true" weight="0.3324397" />
+      <window_info id="Structure" order="2" sideWeight="0.5028329" side_tool="true" weight="0.22453083" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -767,19 +748,19 @@
       <window_info anchor="bottom" id="JRebel Executor" order="0" weight="0.35977337" />
       <window_info anchor="bottom" id="JRebel Console" order="1" sideWeight="0.50067025" side_tool="true" weight="0.5439094" />
       <window_info anchor="bottom" id="Problems" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.49932975" weight="0.509915" />
+      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.49865952" visible="true" weight="0.41501418" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932975" weight="0.29461756" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49865952" weight="0.7790368" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.6558074" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.6558074" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067025" side_tool="true" weight="0.29461756" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5013405" side_tool="true" weight="0.7549575" />
       <window_info anchor="bottom" id="Spring" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="18" weight="0.3286119" />
@@ -788,13 +769,56 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.4978903" visible="true" weight="0.36796248" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.4978903" weight="0.27345845" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5021097" side_tool="true" weight="0.22520107" />
+      <window_info anchor="right" id="Module Dependencies" order="11" weight="0.41487935" />
     </layout>
+    <layout-to-restore>
+      <window_info id="JRebel" order="0" sideWeight="0.5043478" side_tool="true" weight="0.23659517" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49565217" visible="true" weight="0.3324397" />
+      <window_info id="Structure" order="2" sideWeight="0.5028329" side_tool="true" weight="0.22453083" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50141644" side_tool="true" weight="0.28619304" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="0" weight="0.35977337" />
+      <window_info anchor="bottom" id="JRebel Console" order="1" sideWeight="0.50067025" side_tool="true" weight="0.5439094" />
+      <window_info anchor="bottom" id="Problems" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.49932975" visible="true" weight="0.23796034" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49865952" weight="0.7790368" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.6558074" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5013405" side_tool="true" weight="0.37818697" />
+      <window_info anchor="bottom" id="Spring" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.4978903" visible="true" weight="0.27345845" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5021097" side_tool="true" weight="0.22520107" />
+      <window_info anchor="right" id="Module Dependencies" order="11" weight="0.41487935" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -851,132 +875,152 @@
     <MESSAGE value="test config cloud for dev" />
     <MESSAGE value="test branch" />
     <MESSAGE value="test branch merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="test branch merge" />
+    <MESSAGE value="add Es Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Es Search" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/microservice_doumi$HomePageApplication.ic" NAME="HomePageApplication Coverage Results" MODIFIED="1563453458592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.eureka.doumi.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/spring_cloud_parent$UserProviderApplication.ic" NAME="UserProviderApplication Coverage Results" MODIFIED="1563082516619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.eureka.doumi.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/HttpMessage.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="292">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar!/org/apache/http/client/HttpClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="431" selection-start-line="431" selection-end-line="431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.4.14.v20181114/jetty-servlet-9.4.14.v20181114.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="587" column="16" selection-start-line="587" selection-start-column="16" selection-end-line="587" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-security/9.4.14.v20181114/jetty-security-9.4.14.v20181114.jar!/org/eclipse/jetty/security/SecurityHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.14.v20181114/jetty-util-9.4.14.v20181114.jar!/org/eclipse/jetty/util/thread/strategy/EatWhatYouKill.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#2722#2723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.14.v20181114/jetty-io-9.4.14.v20181114.jar!/org/eclipse/jetty/io/ChannelEndPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#1735#1736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.14.v20181114/jetty-io-9.4.14.v20181114.jar!/org/eclipse/jetty/io/FillInterest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.14.v20181114/jetty-io-9.4.14.v20181114.jar!/org/eclipse/jetty/io/AbstractConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+          <folding>
+            <element signature="e#5999#6000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.14.v20181114/jetty-server-9.4.14.v20181114.jar!/org/eclipse/jetty/server/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.14.v20181114/jetty-server-9.4.14.v20181114.jar!/org/eclipse/jetty/server/HttpChannel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.14.v20181114/jetty-server-9.4.14.v20181114.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="117">
+          <caret line="827" column="16" selection-start-line="827" selection-start-column="16" selection-end-line="827" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/CorsConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.14.v20181114/jetty-server-9.4.14.v20181114.jar!/org/eclipse/jetty/server/session/SessionHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="117">
+          <caret line="787" column="16" selection-start-line="787" selection-start-column="16" selection-end-line="787" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.4.14.v20181114/jetty-servlet-9.4.14.v20181114.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="336" column="16" selection-start-line="336" selection-start-column="16" selection-end-line="336" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.14.v20181114/jetty-util-9.4.14.v20181114.jar!/org/eclipse/jetty/util/thread/QueuedThreadPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#23524#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/RabbitMqConfig.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/spring-cloud-search-provider.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/EsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/doumi/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/spring-boot-admin-8769.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/spring-cloud-doumi-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5572">
-          <caret line="204" selection-start-line="203" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/spring-cloud-consumer-8888.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/UserProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/PostJobList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="132">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -985,35 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/mapper/PostJobMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/controller/PostController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/server/SearchServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/controller/SearchController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fallback/SearchServiceFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/server/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="226">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1022,185 +1039,230 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/impl/SearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="85" column="70" selection-start-line="85" selection-start-column="70" selection-end-line="85" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#importPostjoblist#0;class#SearchServiceImpl#0" />
-            <element signature="method#createMapping#0;class#SearchServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/server/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/SearchEsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/fegin/SearchFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="628">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/utils/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/spring-cloud-homePage-privoder-8005.iml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="211" column="70" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
-        </state>
+        <state relative-caret-position="-1" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215" />
+        <state relative-caret-position="-504" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-verify-privoder-8012/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
+        <state relative-caret-position="-1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state relative-caret-position="784">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="206">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-resume-provider-8002/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="364">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-position-privoder-8003/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/resources/aliyun.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.3.RELEASE/spring-boot-actuator-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="1316">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/impl/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/mq/MessageMqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/utils/SMSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="1479">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-mail-provider-8014/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="457">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="740">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-8100/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/src/main/java/com/doumi/pojo/PostJobList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="1652">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-enterprise-privoder-8006/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="-44">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/doumi/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="-339">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-doumi-commons/src/main/java/com/eureka/doumi/config/EsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-8100/src/main/java/com/eureka/EurekaServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-8769/src/main/java/com/admin/server/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-message-privoder-8004/src/main/java/com/eureka/doumi/MessageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-search-provider/src/main/java/com/eureka/doumi/SearchEsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-privoder-8001/src/main/java/com/eureka/doumi/UserProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-8888/src/main/java/com/eureka/ConsumerUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-homePage-privoder-8005/src/main/java/com/eureka/doumi/HomePageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1298,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4257991" />
               </list>
             </option>
           </splitter-proportions>
@@ -1244,10 +1306,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4257991" />
               </list>
             </option>
           </splitter-proportions>
@@ -1255,7 +1318,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|config-server-git</last-edited>
+          <last-edited>spring-cloud-doumi-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1279,7 +1342,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

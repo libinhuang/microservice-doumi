@@ -2,7 +2,7 @@ server:
   port: 8769
 spring:
   application:
-    name: admin-com.eureka.doumi.server
+    name: admin-server
   mail:
     host: smtp.163.com
     username: 15976594566@163.com
@@ -11,6 +11,9 @@ spring:
     user:
       name: admin
       password: admin
+  profiles:
+    active:
+      - secure
   boot:
     admin:
       ui:
@@ -19,18 +22,6 @@ spring:
         mail:
           to: libin524613493@vip.qq.com
           from: 15976594566@163.com
-eureka:
-  instance:
-    instance:
-      lease-renewal-interval-in-seconds: 10
-      health-check-url-path: /actuator/health
-      metadata-map:
-        user.name: ${spring.security.user.name}
-        user.password: ${spring.security.user.password}
-  client:
-    registry-fetch-interval-seconds: 5
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://admin:admin@localhost:8100}/eureka/
 management:
   endpoints:
     web:
@@ -39,3 +30,30 @@ management:
   endpoint:
     health:
       show-details: always
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+#      ${EUREKA_SERVICE_URL:http://admin:admin@localhost:8100}/eureka/
+      defaultZone: ${EUREKA_SERVICE_URL:http://admin:admin@localhost:8100}/eureka/
+---
+spring:
+  profiles: insecure
+
+---
+spring:
+  profiles: secure
+  security:
+    user:
+      name: "admin"
+      password: "admin"
+

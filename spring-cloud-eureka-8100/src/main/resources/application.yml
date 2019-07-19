@@ -1,6 +1,13 @@
 ##服务端口号
 server:
   port: 8100
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: admin
+      password: admin
 ##服務注册相关配置
 eureka:
   ##服务实例主机名
@@ -10,6 +17,7 @@ eureka:
   client:
     #服务注册中心地址
     service-url:
+      #http://${spring.security.user.name}:${spring.security.user.password}@localhost:${server.port}/eureka/
       defaultZone: http://admin:admin@localhost:8100/eureka/
     ##不进行注册（当服务注册中心是单点而非高可用时的配置方式）
     register-with-eureka: false
@@ -17,10 +25,3 @@ eureka:
     fetch-registry: false
   server:
     peer-node-read-timeout-ms: 5000
-spring:
-  application:
-    name: eureka-com.eureka.doumi.server
-  security:
-    user:
-      name: admin
-      password: admin
