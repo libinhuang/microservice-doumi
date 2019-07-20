@@ -1,5 +1,6 @@
 package com.doumi.pojo;
 
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +11,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
+@ApiModel(value = "用户实体类")
 public class User {
     @ApiModelProperty(name = "用户id")
     private int id;
