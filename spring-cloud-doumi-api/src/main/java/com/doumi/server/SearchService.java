@@ -11,5 +11,4 @@ public interface SearchService {
     @GetMapping("/importPostjoblist/{index}/{type}")
     boolean importPostjoblist(@PathVariable String index,@PathVariable String type);
 
-
 }
