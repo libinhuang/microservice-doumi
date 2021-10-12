@@ -44,7 +44,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <!--xxl-job 依赖-->
-        <xxl-job-core.version>2.0.2</xxl-job-core.version>
+        <xxl-job-core.version>2.3.0</xxl-job-core.version>
     </properties>
 
     <!--管理依赖-->
